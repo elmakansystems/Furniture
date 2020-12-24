@@ -46,6 +46,12 @@
 .contact2 p {
   padding: 8px;
 }
+.siconbox {
+  margin: 5px;
+}
+.socialicon {
+  justify-content: flex-start;
+}
 .askform {
   width: 100%;
   padding: 20px;
@@ -90,4 +96,7 @@ textarea {
 .rights :nth-child(2) {
   font-size: 24px;
   padding-left: 2px;
+}
+.dflex {
+  display: flex;
 }
