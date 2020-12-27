@@ -5,13 +5,14 @@
   line-height: 65px;
   color: #64789e;
 }
-
 .sec2 .photoslevel {
   justify-content: space-between;
   width: 100%;
   margin-bottom: 21px;
 }
-
+.photobox {
+  overflow: hidden;
+}
 .sec2 .photobox {
   width: 240px;
   height: 300px;
@@ -25,9 +26,10 @@
 }
 .photoboxh {
   height: 615px;
+  overflow: hidden;
 }
 .displayphoto {
-  transform: translate(-120%);
+  transform: translate(-100%);
   animation: movingframe 1s forwards;
 }
 .displayphotoh {
@@ -41,7 +43,6 @@
   border-radius: 15px;
   object-fit: cover;
 }
-
 /* ========= */
 .contentbox {
   justify-content: space-around;
@@ -85,13 +86,7 @@ textarea {
   transform: translate(-120%);
   animation: movingframe 0.5s forwards;
 }
-
 /* ===================== */
-.animationLR {
-  transform: translate(-120%);
-  animation: movingframe 1s forwards;
-}
-
 @keyframes movingframe {
   from {
     transform: translate(-100%);
