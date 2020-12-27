@@ -73,8 +73,28 @@
   align-items: flex-end;
   text-align: right;
 }
-.color {
-  padding-top: 20px;
+.sflex {
+  /* padding-top: 20px; */
+  display: flex;
+  justify-content: space-around;
+}
+.color1 {
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ed333e;
+  margin: 0 10px;
+}
+.color2 {
+  width: 30px;
+  border-radius: 50%;
+  background-color: #1d5e94;
+  margin: 0 10px;
+}
+.color3 {
+  width: 30px;
+  border-radius: 50%;
+  background-color: #524235;
+  margin: 0 10px;
 }
 .color span {
   display: inline-block;
