@@ -42,3 +42,10 @@
   background-size: cover;
   background-blend-mode: multiply;
 }
+
+@media (max-width: 780px) {
+  .s h1 {
+    margin-left: 10px;
+    font-size: 2rem;
+  }
+}
