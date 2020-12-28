@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
 }
-section {
+.s {
   height: 100%;
   display: flex;
   align-items: center;
@@ -14,34 +14,34 @@ section {
   transition: all 0.5s;
 }
 
-section h1 {
+.s h1 {
   color: #fff;
 }
 
-section:hover {
+.s:hover {
   flex: 3;
+  background-blend-mode: multiply;
+}
+.s {
+  background-color: royalblue;
+  background-position: center;
+  background-size: cover;
 }
 .ayman {
-  background: url(../testpic/ayman.jpg) blue;
-  background-position: center;
-  background-size: cover;
-  /* background-blend-mode: multiply; */
+  /* background: url(../testpic/ayman.jpg) blue; */
 }
 .tebo {
-  background: url(../testpic/tebo.jpg) red;
+  background: url(../testpic/tebo.jpg) rgba(87, 84, 236, 0.4);
   background-position: center;
   background-size: cover;
-  /* background-blend-mode: multiply; */
 }
 .seada {
-  background: url(../testpic/seada.jpeg) green;
+  background: url(../testpic/seada.jpeg) rgba(87, 84, 236, 0.4);
   background-position: center;
   background-size: cover;
-  /* background-blend-mode: multiply; */
 }
 .yara {
-  background: url(../testpic/yara.jpg) green;
+  background: url(../testpic/yara.jpg) rgba(87, 84, 236, 0.4);
   background-position: center;
   background-size: cover;
-  /* background-blend-mode: multiply; */
 }
