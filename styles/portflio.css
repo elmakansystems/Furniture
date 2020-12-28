@@ -95,7 +95,6 @@ textarea {
     transform: translate(0%);
   }
 }
-
 @keyframes movingframer {
   from {
     transform: translate(100%);

@@ -1,0 +1,41 @@
+.cont {
+  height: 500px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* justify-content: center; */
+  flex: 1;
+  transition: all 0.5s;
+}
+
+section h1 {
+  color: #fff;
+}
+
+section:hover {
+  flex: 3;
+}
+.ayman {
+  background: url(../testpic/ayman.jpg) blue;
+  background-position: center;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+}
+.tebo {
+  background: url(../testpic/tebo.jpg) red;
+  background-position: center;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+}
+.seada {
+  background: url(../testpic/seada.jpeg) green;
+  background-position: center;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+}
