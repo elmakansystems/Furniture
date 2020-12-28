@@ -39,3 +39,9 @@ section:hover {
   background-size: cover;
   /* background-blend-mode: multiply; */
 }
+.yara {
+  background: url(../testpic/yara.jpg) green;
+  background-position: center;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+}
