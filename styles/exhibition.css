@@ -24,20 +24,21 @@
 }
 
 .ayman {
-  background: url(../testpic/ayman.jpg);
+  background: url(../testpic/ayman.jpg) rgba(87, 84, 236, 0.4);
 }
 .tebo {
-  background: url(../testpic/tebo.jpg);
+  background: url(../testpic/tebo.jpg) rgba(87, 84, 236, 0.4);
 }
 .seada {
-  background: url(../testpic/seada.jpeg);
+  background: url(../testpic/seada.jpeg) rgba(87, 84, 236, 0.4);
 }
 
 .yara {
-  background: url(../testpic/yara.jpg);
+  background: url(../testpic/yara.jpg) rgba(87, 84, 236, 0.4);
 }
 
 .bg {
   background-position: center;
   background-size: cover;
+  background-blend-mode: multiply;
 }
